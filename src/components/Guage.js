@@ -118,6 +118,7 @@ const Guage = () => {
   return (
     <>
       <div className="guage-container">
+        <h1 id="guide">Press the Up Arrow</h1>
         <div className="cluster">
           <img
             data-aos="fade"
