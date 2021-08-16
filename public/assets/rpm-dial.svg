@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="643.062" height="643.062" viewBox="0 0 643.062 643.062">
+  <defs>
+    <filter id="Ellipse_20" x="94.519" y="92.296" width="458.47" height="458.47" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-color="#395fff" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_165" data-name="Rectangle 165" width="643.062" height="643.062"/>
+    </clipPath>
+    <filter id="Path_130" x="85.339" y="85.409" width="463.4" height="408.019" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#5ad9f7"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_131" x="438.771" y="233.206" width="118.947" height="260.219" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#d92e10" flood-opacity="0.71"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_78" data-name="Group 78" transform="translate(-1080.614 -186.969)">
+    <g id="Ellipse_22" data-name="Ellipse 22" transform="translate(1175.133 279.265)" fill="none" stroke="#a8b2c4" stroke-width="2">
+      <circle cx="229.235" cy="229.235" r="229.235" stroke="none"/>
+      <circle cx="229.235" cy="229.235" r="228.235" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1080.61, 186.97)" filter="url(#Ellipse_20)">
+      <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="229.235" cy="229.235" r="229.235" transform="translate(94.52 92.3)" fill="#fff"/>
+    </g>
+    <g id="rpm" transform="translate(1080.614 186.969)" clip-path="url(#clip-path)">
+      <g id="Group_75" data-name="Group 75">
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_130)">
+          <path id="Path_130-2" data-name="Path 130" d="M515.683,262.888a202.046,202.046,0,0,0-52.224-86.137c-78.848-77.259-205.01-77.259-283.858,0s-81.416,203.394-5.778,283.8a1.709,1.709,0,0,1-.03,2.38h0a1.69,1.69,0,0,1-2.426-.031c-76.921-81.747-74.322-210,5.848-288.567s208.454-78.564,288.626,0a205.249,205.249,0,0,1,52.9,86.979l-3.056,1.58Z" fill="#ededed"/>
+        </g>
+      </g>
+      <g id="Group_76" data-name="Group 76">
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_131)">
+          <path id="Path_131-2" data-name="Path 131" d="M516.274,264.884A202.755,202.755,0,0,1,469.237,460.55a1.709,1.709,0,0,0,.032,2.378h0a1.691,1.691,0,0,0,2.426-.032,206.109,206.109,0,0,0,47.613-199.69l-3.034,1.678Z" fill="#d92e10"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

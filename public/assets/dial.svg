@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="643.062" height="643.062" viewBox="0 0 643.062 643.062">
+  <defs>
+    <filter id="Ellipse_20" x="94.518" y="92.296" width="458.47" height="458.47" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-color="#395fff" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Subtract" x="0" y="0" width="643.062" height="643.062" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#5ad9f7"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_75" data-name="Group 75" transform="translate(-121.68 -174.493)">
+    <g id="Ellipse_22" data-name="Ellipse 22" transform="translate(216.198 266.789)" fill="none" stroke="#a8b2c4" stroke-width="2">
+      <circle cx="229.235" cy="229.235" r="229.235" stroke="none"/>
+      <circle cx="229.235" cy="229.235" r="228.235" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 121.68, 174.49)" filter="url(#Ellipse_20)">
+      <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="229.235" cy="229.235" r="229.235" transform="translate(94.52 92.3)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 121.68, 174.49)" filter="url(#Subtract)">
+      <path id="Subtract-2" data-name="Subtract" d="M410.594,201.659A1.71,1.71,0,0,1,408.889,200,202.792,202.792,0,1,0,200,408.889a1.71,1.71,0,0,1,1.662,1.705h0a1.689,1.689,0,0,1-1.738,1.693A206.19,206.19,0,1,1,412.286,199.921a1.689,1.689,0,0,1-1.693,1.738Z" transform="translate(321.53 30) rotate(45)" fill="#ededed" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
