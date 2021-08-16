@@ -15,9 +15,14 @@ const Guage = () => {
       clearTimeout(changeTime);
       clearInterval(brakeInt);
 
-      for (let needle of document.querySelectorAll(".needle-hold")) {
-        needle.style.transform = "translate(-50%, -50%) rotate(220deg)";
-      }
+      // for (let needle of document.querySelectorAll(".needle-hold")) {
+      //   needle.style.transform = "translate(-50%, -50%) rotate(220deg)";
+      // }
+
+      document.querySelector(".needle-hold").style.transform =
+        "translate(-50%, -50%) rotate(220deg)";
+
+      document.querySelector("#rpm-needle").style.animation = "rpm 6s forwards";
 
       document.querySelector("#gear-display").innerHTML = "1";
 
@@ -46,6 +51,9 @@ const Guage = () => {
         if (speed > 200) {
           document.querySelector("#gear-display").innerHTML = "5";
         }
+        if (speed > 270) {
+          document.querySelector("#gear-display").innerHTML = "6";
+        }
       }, 100);
     }
   });
@@ -61,9 +69,13 @@ const Guage = () => {
         }
       }, 100);
 
-      for (let needle of document.querySelectorAll(".needle-hold")) {
-        needle.style.transform = "translate(-50%, -50%) rotate(-40deg)";
-      }
+      document.querySelector(".needle-hold").style.transform =
+        "translate(-50%, -50%) rotate(-40deg)";
+
+      document.querySelector("#rpm-needle").style.transform =
+        "translate(-50%, -50%) rotate(-40deg)";
+      document.querySelector("#rpm-needle").style.animation =
+        "return 1s forwards";
 
       changeTime = setTimeout(() => {
         document.querySelector(".gear-active").classList.remove("gear-active");
