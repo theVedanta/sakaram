@@ -1,23 +1,216 @@
-.app-container {    
-    width: 65%;
-    margin: 0 auto;
-    margin-top: 5vh;
+.contain-info {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #333f58;
+  overflow: hidden;
+}
+.infot {
+  width: 70vw;
+  height: 75vh;
+  background: #182135;
+  border-radius: 12px;
+  padding: 2vh 3vw;
 }
 
-.filler-wrap {
-    display: flex;
-    width: 55vw;
-    /* background-color: blue; */
-    justify-content: space-between;
+.info-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1vw;
+  margin-bottom: 2vh;
+}
+#nav-logo {
+  width: 8%;
+}
+.info-nav p {
+  display: flex;
+  align-items: center;
+  font-size: 1.4vw;
+}
+sup {
+  transform: translateY(-25%);
+}
+.info-nav h2 {
+  font-size: 2vw;
+}
+.call {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.temp-container {
-    margin-top: 2vh;
-    border-radius: 45px;
+.main-info {
+  padding: 3.4vh 2.3vw;
+  border-radius: 12px;
+  height: 87%;
+  background: #202a44;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4vh;
+}
+.map {
+  height: 27vh;
+}
+.tyre {
+  height: 27vh;
 }
 
-.vslider-wrap {
-    position: fixed;
-    right: 20vw;
-    top: 30vh
+.temp {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.clim {
+  font-size: qvw;
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 1vw;
+  background: #000000;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.418);
+  cursor: pointer;
+}
+.clim-hold {
+  padding: 1vh 1vw;
+  background: #000;
+  position: absolute;
+  top: -60%;
+  left: 0;
+  border-radius: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.temp-slide {
+  border-radius: 50px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20vw;
+  height: 7px;
+  background: linear-gradient(to left, #f83e3e 50%, #2662d3 50%);
+}
+.temp-slide::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.temp-slide::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+.temp-set {
+  width: calc(100% - 6vw);
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #000000;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.418);
+  border-radius: 50px;
+}
+.fan-hold {
+  position: absolute;
+  top: -58%;
+  left: 39%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  padding: 1vh 1vw;
+  border-radius: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.fan-levs {
+  margin: 0 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lev {
+  width: 30px;
+  margin: 0 0.4vw;
+  height: 10px;
+  border-radius: 2px;
+  background: rgb(106, 107, 107);
+  transition: all 0.15s;
+}
+.lev-active {
+  background: #fff;
+}
+.fan-hold svg {
+  cursor: pointer;
+}
+
+.music {
+  margin-top: 6vh;
+  width: 96%;
+  height: 7.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #6a70ef;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.418);
+  border-radius: 50px;
+  padding: 0 1.4vw;
+}
+.track {
+  width: 86%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.track-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.music > img {
+  height: 100%;
+}
+.track img {
+  width: 3vw;
+  height: 3vw;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.track h3 {
+  margin-left: 1.4vw;
+}
+.music .controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  font-size: 1.4vw;
+}
+.show {
+  opacity: 1;
+  pointer-events: all;
 }

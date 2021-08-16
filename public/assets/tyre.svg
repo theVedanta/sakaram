@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="204" viewBox="0 0 340 204">
+  <defs>
+    <filter id="Rectangle_98" x="0" y="0" width="340" height="204" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_113" x="128.21" y="17.222" width="88.58" height="168.555" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_79" data-name="Group 79" transform="translate(-592 -126)">
+    <g transform="matrix(1, 0, 0, 1, 592, 126)" filter="url(#Rectangle_98)">
+      <rect id="Rectangle_98-2" data-name="Rectangle 98" width="322" height="186" rx="12" transform="translate(9 6)" fill="#7b81ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 592, 126)" filter="url(#Path_113)">
+      <path id="Path_113-2" data-name="Path 113" d="M40.415-239.917A27.042,27.042,0,0,0,23.923-226.15C20.5-219.092,19.8-211.265,21.407-199.6c.419,3.145.349,3.215-1.607,3.634-2.935.559-5.8,3.075-5.8,5.1,0,1.537.21,1.677,1.957,1.258a34.372,34.372,0,0,0,3.494-1.118c.908-.28,1.957-.419,2.306-.14.349.21.629,4.333.7,9.224a98.824,98.824,0,0,0,.559,11.67c.349,1.677.489-2.725.28-10.692-.28-8.945-.14-13.417.349-13.417a1.393,1.393,0,0,1,1.048.839c.14.489.14-1.607-.07-4.682-.28-5.381-.21-5.73,1.607-7.9,3.983-4.752,10.063-6.429,23.27-6.429,9.574,0,14.955.978,19.217,3.494,3.7,2.166,4.682,4.193,4.682,9.294,0,5.241-1.468,9.853-4.053,13l-1.887,2.236-5.94-.7a111.109,111.109,0,0,0-25.507,0l-5.241.769-1.607-1.887c-.839-1.118-2.1-2.935-2.8-4.123s-1.048-1.537-.839-.769c2.306,8.875,3,30.608,1.747,51.922-.769,13.557-1.4,17.47-2.376,14.4a129.6,129.6,0,0,1-1.887-16.7c-.28-8.665-1.607,9.154-1.607,20.964,0,11.041.14,13.208,1.537,17.61,2.027,6.569,4.333,8.6,12.089,10.692A51.062,51.062,0,0,0,58.165-90.93c9.085-1.677,13.767-4.053,15.723-8.106,3.145-6.569,4.193-20.126,2.655-33.823-.978-8.316-1.118-15.164-.908-33.962.07-13,.419-23.83.7-24.109s1.957,0,3.774.629c4.263,1.4,4.472,1.4,4.472-.28,0-1.887-2.865-4.472-5.73-5.381-1.677-.489-2.236-1.048-2.166-2.027,2.586-22.292-1.817-34.1-14.955-40.321-3.913-1.817-5.521-2.166-11.321-2.306A38.9,38.9,0,0,0,40.415-239.917ZM74.028-130.972c-1.468,12.3-2.166,9.434-3.494-13.836-1.258-22.292-.14-40.461,3-47.519.769-1.817.908,2.166,1.118,26.205C74.8-147.743,74.587-135.444,74.028-130.972Zm-38.365,5.1c8.526,1.817,23.62,1.118,32.7-1.537,1.537-.419,1.537-.419,1.537,7.477,0,12.579-1.537,15.933-8.036,17.75-8.176,2.306-22.432,1.887-28.092-.839-3.7-1.747-5.171-5.66-5.66-14.955-.349-8.386-.07-10.133,1.817-9.364A55.733,55.733,0,0,0,35.663-125.87Z" transform="translate(123.21 263.87)" fill="#fff"/>
+    </g>
+    <text id="_30_psi" data-name="30 psi" transform="translate(645 173.5)" fill="#fff" font-size="22" font-family="Poppins-Regular, Poppins"><tspan x="0" y="23">30 psi</tspan></text>
+    <text id="_30_psi-2" data-name="30 psi" transform="translate(645 245.5)" fill="#fff" font-size="22" font-family="Poppins-Regular, Poppins"><tspan x="0" y="23">30 psi</tspan></text>
+    <text id="_30_psi-3" data-name="30 psi" transform="translate(815 245.5)" fill="#fff" font-size="22" font-family="Poppins-Regular, Poppins"><tspan x="0" y="23">30 psi</tspan></text>
+    <text id="_30_psi-4" data-name="30 psi" transform="translate(815 173.5)" fill="#fff" font-size="22" font-family="Poppins-Regular, Poppins"><tspan x="0" y="23">30 psi</tspan></text>
+  </g>
+</svg>

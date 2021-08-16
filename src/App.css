@@ -1,9 +1,30 @@
+@font-face {
+  font-family: bold;
+  src: url("fonts/bold.otf");
+}
+@font-face {
+  font-family: semi;
+  src: url("fonts/semi.otf");
+}
+@font-face {
+  font-family: light;
+  src: url("fonts/light.otf");
+}
+@font-face {
+  font-family: regular;
+  src: url("fonts/regular.otf");
+}
+@font-face {
+  font-family: med;
+  src: url("fonts/medium.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: 0;
-  font-family: Graphik;
+  font-family: regular;
   user-drag: none;
   -webkit-user-drag: none;
   user-select: none;
@@ -14,4 +35,5 @@
 body {
   width: 100vw;
   overflow-x: hidden;
+  background-color: #222121;
 }

@@ -1,6 +1,19 @@
 import "./guage.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Guage = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 800,
+      delay: 200,
+    });
+    AOS.refresh();
+    document.getElementsByTagName("html")[0].style.scrollBehavior = "smooth";
+  }, []);
+
   let changeTime;
   let speedArr = [];
   let speed = 0;
@@ -106,8 +119,13 @@ const Guage = () => {
     <>
       <div className="guage-container">
         <div className="cluster">
-          <img src="/assets/outer.svg" alt="the" className="outer" />
-          <div className="left-guage">
+          <img
+            data-aos="fade"
+            src="/assets/outer.svg"
+            alt="the"
+            className="outer"
+          />
+          <div data-aos="zoom-in" data-aos-delay="1000" className="left-guage">
             <img src="/assets/dial.svg" className="dial" alt="the" />
 
             <img
@@ -142,7 +160,7 @@ const Guage = () => {
             </div>
           </div>
           <div className="controls"></div>
-          <div className="right-guage">
+          <div data-aos="zoom-in" data-aos-delay="1000" className="right-guage">
             <img src="/assets/rpm-dial.svg" className="dial" alt="the" />
             <img
               src="/assets/inner-dial.svg"

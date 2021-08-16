@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="448" height="204" viewBox="0 0 448 204">
+  <defs>
+    <filter id="Rectangle_103" x="0" y="0" width="448" height="204" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_105" x="14" y="14" width="189" height="91" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_5" x="40.5" y="29.762" width="41.764" height="57.238" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_44" x="366.5" y="125.5" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-4"/>
+      <feFlood flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_48" x="298" y="140" width="52" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_11" x="308" y="147" width="31" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_78" data-name="Group 78" transform="translate(-129 -126)">
+    <g transform="matrix(1, 0, 0, 1, 129, 126)" filter="url(#Rectangle_103)">
+      <rect id="Rectangle_103-2" data-name="Rectangle 103" width="430" height="186" rx="12" transform="translate(9 6)" fill="#e0ffeb"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 129, 126)" filter="url(#Rectangle_105)">
+      <rect id="Rectangle_105-2" data-name="Rectangle 105" width="171" height="73" rx="12" transform="translate(23 20)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 129, 126)" filter="url(#Union_5)">
+      <path id="Union_5-2" data-name="Union 5" d="M.6,0A.6.6,0,0,0,0,.6L.014,30.229c.814.03,1.548.042,2.212.039a1.214,1.214,0,0,0,.306.039h14.39L10.89,36.056a1.192,1.192,0,0,0-.022,1.715l1.111,1.113a1.2,1.2,0,0,0,1.7,0l9.735-9.729a1.2,1.2,0,0,0,0-1.7l-9.735-9.733a1.2,1.2,0,0,0-1.7,0l-1.111,1.111a1.2,1.2,0,0,0,.022,1.718L16.922,26.3H4.006V.6a.6.6,0,0,0-.6-.6Z" transform="translate(73.26 75) rotate(180)" fill="#fff"/>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(236 22)">
+      <g transform="matrix(1, 0, 0, 1, -107, 104)" filter="url(#Ellipse_44)">
+        <circle id="Ellipse_44-2" data-name="Ellipse 44" cx="23" cy="23" r="23" transform="translate(374 130)"/>
+      </g>
+      <g id="Group_21" data-name="Group 21" transform="translate(265.605 -127.581) rotate(45)">
+        <line id="Line_39" data-name="Line 39" y2="22.379" transform="translate(289.19 243.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="Line_40" data-name="Line 40" y2="22.379" transform="translate(300.379 254.69) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+    <text id="_1_hr_12_mins_" data-name="1 hr 12 mins " transform="translate(152 234)" font-size="26" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="27">1 hr 12 mins </tspan></text>
+    <text id="_34_kms" data-name="34 kms" transform="translate(152 270)" fill="#848484" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="0" y="11">34 kms</tspan></text>
+    <text id="_21:09" data-name="21:09" transform="translate(238 270)" fill="#848484" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="0" y="11">21:09</tspan></text>
+    <g id="Ellipse_45" data-name="Ellipse 45" transform="translate(226 277)" fill="none" stroke="#707070" stroke-width="7" opacity="0.759">
+      <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+      <circle cx="1.5" cy="1.5" r="2" fill="none"/>
+    </g>
+    <g id="Ellipse_46" data-name="Ellipse 46" transform="translate(431 182)" fill="none" stroke="#707070" stroke-width="11">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="14" fill="none"/>
+    </g>
+    <g id="Ellipse_47" data-name="Ellipse 47" transform="translate(474.139 215.703) rotate(166)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="11" stroke-dasharray="38.9 1250">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="14" fill="none"/>
+    </g>
+    <line id="Line_44" data-name="Line 44" y2="62" transform="translate(448.5 218.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_46" data-name="Line 46" x2="55" transform="translate(464.5 193.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_47" data-name="Line 47" x2="49" transform="translate(464.5 211.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_48" data-name="Line 48" y2="41" transform="translate(440.5 145.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_49" data-name="Line 49" y2="41" transform="translate(454.5 145.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_50" data-name="Line 50" x1="143" transform="translate(305.5 280.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_51" data-name="Line 51" x1="141" transform="translate(305.5 290.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_52" data-name="Line 52" y2="25" transform="translate(446.5 290.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_53" data-name="Line 53" y2="40" transform="translate(459.5 275.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_54" data-name="Line 54" x2="65" transform="translate(454.5 145.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_56" data-name="Line 56" y2="27" transform="translate(513.5 211.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_57" data-name="Line 57" y2="26" transform="translate(531.5 211.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_58" data-name="Line 58" x2="40" transform="translate(518.5 193.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_59" data-name="Line 59" y1="18" transform="translate(369.5 175.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_60" data-name="Line 60" x2="43" transform="translate(369.5 175.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_61" data-name="Line 61" y2="18" transform="translate(357.5 175.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_62" data-name="Line 62" x2="40" transform="translate(360.5 165.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_63" data-name="Line 63" y1="20" transform="translate(400.5 145.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <line id="Line_64" data-name="Line 64" y1="30" transform="translate(412.5 145.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_67" data-name="Line 67" x1="28" transform="translate(412.5 145.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1"/>
+    <path id="Rectangle_106" data-name="Rectangle 106" d="M5,0H9a5,5,0,0,1,5,5V108a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(446 210)"/>
+    <rect id="Rectangle_107" data-name="Rectangle 107" width="14" height="103" rx="5" transform="translate(441.5 194.5) rotate(90)"/>
+    <g transform="matrix(1, 0, 0, 1, 129, 126)" filter="url(#Ellipse_48)">
+      <circle id="Ellipse_48-2" data-name="Ellipse 48" cx="17" cy="17" r="17" transform="translate(307 146)" fill="#2673bf"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 129, 126)" filter="url(#Polygon_11)">
+      <g id="Polygon_11-2" data-name="Polygon 11" transform="translate(317 153)" fill="#fff">
+        <path d="M 11.97012329101562 16.1935977935791 L 6.634359836578369 14.70506000518799 L 6.5 14.66757965087891 L 6.365640163421631 14.70506000518799 L 1.029876589775085 16.1935977935791 L 4.725329875946045 9.652620315551758 L 4.760429859161377 9.590490341186523 L 4.776750087738037 9.521030426025391 L 6.5 2.186168432235718 L 8.223250389099121 9.521030426025391 L 8.239569664001465 9.590490341186523 L 8.274669647216797 9.652620315551758 L 11.97012329101562 16.1935977935791 Z" stroke="none"/>
+        <path d="M 6.5 4.372283935546875 L 5.230850219726562 9.774310111999512 L 2.059744834899902 15.38720226287842 L 6.5 14.1484899520874 L 10.9402551651001 15.38720226287842 L 7.769149780273438 9.774310111999512 L 6.5 4.372283935546875 M 6.5 0 L 8.710000038146973 9.406669616699219 L 13 17 L 6.5 15.18667030334473 L 0 17 L 4.289999961853027 9.406669616699219 L 6.5 0 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Path_117" data-name="Path 117" d="M31.5,12.932C16.849,30.92,55.123,11.849,63,24.5S31.239,55.68,31.5,40.281,11.768,47.355,0,24.5,46.151-5.057,31.5,12.932Z" transform="translate(365 218)" fill="#9bd5ff"/>
+    <text id="Take_Left" data-name="Take Left" transform="translate(225 162)" fill="#fff" font-size="15" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="16">Take Left</tspan></text>
+    <text id="In_90_meters" data-name="In 90 meters" transform="translate(229 183)" fill="#fff" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="0" y="11">In 90 meters</tspan></text>
+  </g>
+</svg>

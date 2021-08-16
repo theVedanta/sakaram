@@ -5,10 +5,10 @@ const Index = () => {
   return (
     <>
       <div className="index-container">
-        <nav>
+        <nav className="index-nav">
           <img src="/assets/logo.svg" alt="" className="logo" />
           <h1>Sakaram</h1>
-          <h1></h1>
+          <h1 style={{ visibility: "hidden" }}>the</h1>
         </nav>
 
         <section className="hero">

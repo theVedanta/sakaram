@@ -103,7 +103,7 @@
 }
 @keyframes return {
   0% {
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(120deg);
   }
   100% {
     transform: translate(-50%, -50%) rotate(-40deg);
@@ -128,14 +128,14 @@
 }
 .cluster h1 {
   font-size: 4.4vw;
-  font-weight: 400;
+  font-family: regular;
   transform: translate(-50%, -60%);
 }
 .cluster h2 {
   font-size: 0.8vw;
   transform: translate(-50%, 220%);
   color: #b6c1c3;
-  font-weight: 400;
+  font-family: med;
 }
 .gear-box {
   position: absolute;
@@ -147,7 +147,7 @@
   align-items: center;
 }
 .gear {
-  font-weight: 500;
+  font-family: med;
   color: rgba(255, 255, 255, 0.24);
   font-size: 1.6vw;
   margin: 0 0.8vw;
