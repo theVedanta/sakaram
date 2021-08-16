@@ -1,8 +1,8 @@
-import React from 'react';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import Slider from '@material-ui/core/Slider';
-import './Temperature.css';
+import React from "react";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
+import Typography from "@material-ui/core/Typography";
+import Slider from "@material-ui/core/Slider";
+import "./Temperature.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,7 +40,7 @@ function valuetext(value) {
 const CustomisedSlider = withStyles({
   root: {
     color: "#52af77",
-    height: 8
+    height: 8,
   },
   thumb: {
     height: 20,
@@ -50,8 +50,8 @@ const CustomisedSlider = withStyles({
     marginTop: -5,
     marginLeft: -12,
     "&:focus,&:hover,&$active": {
-      boxShadow: "inherit"
-    }
+      boxShadow: "inherit",
+    },
   },
   active: {},
   track: {
@@ -61,94 +61,51 @@ const CustomisedSlider = withStyles({
   rail: {
     height: 10,
     borderRadius: "3vh",
-    opacity: 1
-  }
+    opacity: 1,
+  },
 })(Slider);
 
-// function Temperature() {
-//     const classes = useStyles();
-  
-//     return (
-//         <div className={classes.root}>
-//         <div className="temp-container">
-//             <div className="slider-container">
-//                 <div className="tslider-wrap">
-//                     <Typography id="discrete-slider-custom" gutterBottom>
-//                     <h2>26C</h2>
-//                     </Typography>
-//                     <CustomisedSlider
-//                         defaultValue={20}
-//                         getAriaValueText={valuetext}
-//                         aria-labelledby="discrete-slider-custom"
-//                         // valueLabelDisplay="auto"
-//                     />
-//                 </div>
-//                 <div className="tslider-wrap">
-//                     <Typography id="discrete-slider-custom" gutterBottom>
-//                     <h2>26C</h2>
-//                     </Typography>
-//                     <CustomisedSlider
-//                         defaultValue={20}
-//                         getAriaValueText={valuetext}
-//                         aria-labelledby="discrete-slider-custom"
-//                         // valueLabelDisplay="auto"
-//                     />
-//                 </div>
-//             </div>
-//             <div className="control-wrap">
-//                 <div className="temp-controls">
-//                     <img src="assets/t1.png" />
-//                     <img src="assets/t2.png" />
-//                     <img src="assets/t3.png" />
-//                     <img src="assets/t4.png" />
-//                     <img src="assets/t5.png" />
-//                 </div>
-//             </div>
-//         </div>
-//         </div>
-//     );
-//   }
-  
+function Temperature() {
+  const classes = useStyles();
 
-function Temperature() {    
-    const classes = useStyles();
-
-    return (
-        <div className={classes.root}>
-            <div className="temp-container">
-                <div className="slider-container">
-                    <div className="tslider-wrap">
-                        <Typography id="discrete-slider-custom" gutterBottom>
-                        <h2>26C</h2>
-                        </Typography>
-                        <CustomisedSlider
-                        defaultValue={20}
-                        getAriaValueText={valuetext}
-                        aria-labelledby="discrete-slider-custom"
-                        valueLabelDisplay="auto"
-                        />
-                    </div>
-                    <div className="tslider-wrap">
-                        <Typography id="discrete-slider-custom" gutterBottom>
-                        <h2>26C</h2>
-                        </Typography>
-                        <CustomisedSlider
-                        defaultValue={20}
-                        getAriaValueText={valuetext}
-                        aria-labelledby="discrete-slider-custom"
-                        valueLabelDisplay="auto"
-                        />
-                    </div>
-                </div>
-                <div className="temp-controls">
-                    <img src="assets/t1.png" />
-                    <img src="assets/t2.png" />
-                    <img src="assets/t3.png" />
-                    <img src="assets/t4.png" />
-                    <img src="assets/t5.png" />                    
-                </div>
-            </div>
+  return (
+    <div className={classes.root}>
+      {/* <div className="temp-container"> */}
+        <div className="slider-container">
+          <div className="tslider-wrap">
+            <Typography id="discrete-slider-custom" gutterBottom>
+              <h2>26C</h2>
+            </Typography>
+            <CustomisedSlider
+              defaultValue={20}
+              getAriaValueText={valuetext}
+              aria-labelledby="discrete-slider-custom"
+            //   valueLabelDisplay="auto"
+            />
+          </div>
+          <div className="tslider-wrap">
+            <Typography id="discrete-slider-custom" gutterBottom>
+              <h2>26C</h2>
+            </Typography>
+            <CustomisedSlider
+              defaultValue={20}
+              getAriaValueText={valuetext}
+              aria-labelledby="discrete-slider-custom"
+            //   valueLabelDisplay="auto"
+            />
+          </div>
         </div>
-    )
+        <div className="control-wrap">
+          <div className="temp-controls">
+            <img alt="alt" src="assets/t1.png" />
+            <img alt="alt" src="assets/t2.png" />
+            <img alt="alt" src="assets/t3.png" />
+            <img alt="alt" src="assets/t4.png" />
+            <img alt="alt" src="assets/t5.png" />
+          </div>
+        </div>
+      </div>
+    // </div>
+  );
 }
 export default Temperature;

@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--grey);
-    width: 85%;
+    width: 65%;
     margin: 0 auto;
     border-bottom-left-radius: 4vh;
     border-bottom-right-radius: 4vh;
@@ -29,7 +29,8 @@ body {
 }
 
 .text {
-    vertical-align: middle;
+    margin: auto 0;
+    font-size: 1.3vw;
 }
 
 .status.logo, .status.perc img {

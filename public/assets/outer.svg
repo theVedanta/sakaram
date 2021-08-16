@@ -21,8 +21,29 @@
       <feComposite operator="in" in="color"/>
       <feComposite operator="in" in2="SourceGraphic"/>
     </filter>
+    <filter id="_11:42" x="901.352" y="220.136" width="75" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_105" x="1041.352" y="217.136" width="51" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_5" x="1049.24" y="225.129" width="31.333" height="40.014" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
   </defs>
-  <g id="Group_74" data-name="Group 74" transform="translate(21.5 -19.864)">
+  <g id="Group_79" data-name="Group 79" transform="translate(21.5 -19.864)">
     <g transform="matrix(1, 0, 0, 1, -21.5, 19.86)" filter="url(#Union_4)">
       <path id="Union_4-2" data-name="Union 4" d="M1816.055,6601.689c-39.395.925-87.966.834-149.507-.737-27.494.171-50.035,1.065-65.2-1.364C1437.729,6590.672,1439,6155.917,1439,6155.917L1856.833,5997l49.141,33.221h20.648l282.8,4.68,6.518.108.067.084h4.416L2517.9,6035h20.648l49.14-33.221L3005.523,6160.7s8.786,316.639-106.72,413.094c-15.424,14.186-37.435,23.83-59.654,26.313-4.839,1.954-594.03,1.2-594.03,1.2-79.526,1.036-157.425,1.381-225.929,1.381C1929.725,6602.687,1856.272,6602.1,1816.055,6601.689Z" transform="translate(-1290.5 -5848.5)" fill="#121214"/>
     </g>
@@ -34,6 +55,42 @@
         <path id="Path_15-4" data-name="Path 15" d="M2475.391,332.137l21.344,21.343h375.314l21.344-21.343" transform="translate(-1748.74 -78.15)" fill="#fff"/>
       </g>
       <path id="Path_15-5" data-name="Path 15" d="M2475.391,332.137l21.344,21.343h375.314l21.344-21.343" transform="translate(-1770.244 -58.289)" fill="none" stroke="#00b4c4" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <line id="Line_9" data-name="Line 9" x2="642" transform="translate(587.648 736.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3"/>
+    <line id="Line_10" data-name="Line 10" x2="375" transform="translate(715.5 656.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3"/>
+    <g id="Group_46" data-name="Group 46" transform="translate(59.852 4)">
+      <g id="Rectangle_29" data-name="Rectangle 29" transform="translate(697.148 695)" fill="none" stroke="#fff" stroke-width="3">
+        <rect width="306" height="19" stroke="none"/>
+        <rect x="1.5" y="1.5" width="303" height="16" fill="none"/>
+      </g>
+      <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(702.148 699)" fill="#fff" stroke="#fff" stroke-width="3">
+        <rect width="150" height="11" stroke="none"/>
+        <rect x="1.5" y="1.5" width="147" height="8" fill="none"/>
+      </g>
+    </g>
+    <text id="Time_to_reach_the_destination_2_hrs" data-name="Time to reach the destination          ~ 2 hrs" transform="translate(766 671)" fill="#fff" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="15" xml:space="preserve">Time to reach the destination          ~ 2 hrs</tspan></text>
+    <text id="TRAVEL_Information-" data-name="TRAVEL Information-" transform="translate(774 323)" fill="#fff" font-size="26" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="27">Travel Information-</tspan></text>
+    <path id="Icon_awesome-car" data-name="Icon awesome-car" d="M25.535,10.22H22.477L21.628,8.1a5.691,5.691,0,0,0-5.31-3.6H9.831A5.693,5.693,0,0,0,4.52,8.1l-.85,2.125H.613a.613.613,0,0,0-.594.761l.306,1.226a.612.612,0,0,0,.594.464H1.945A3.246,3.246,0,0,0,.817,15.123v2.451a3.242,3.242,0,0,0,.817,2.141v2.761a1.634,1.634,0,0,0,1.634,1.634H4.9a1.634,1.634,0,0,0,1.634-1.634V20.843H19.611v1.634a1.634,1.634,0,0,0,1.634,1.634H22.88a1.634,1.634,0,0,0,1.634-1.634V19.716a3.24,3.24,0,0,0,.817-2.141V15.123A3.247,3.247,0,0,0,24.2,12.671h1.025a.612.612,0,0,0,.594-.464l.306-1.226a.613.613,0,0,0-.595-.761ZM7.555,9.309A2.452,2.452,0,0,1,9.831,7.769h6.486a2.452,2.452,0,0,1,2.276,1.541l1.018,2.545H6.537L7.555,9.309ZM4.9,17.564a1.542,1.542,0,0,1-1.634-1.629A1.542,1.542,0,0,1,4.9,14.306a3.144,3.144,0,0,1,2.451,2.444C7.354,17.727,5.883,17.564,4.9,17.564Zm16.343,0c-.981,0-2.451.163-2.451-.815a3.144,3.144,0,0,1,2.451-2.444,1.542,1.542,0,0,1,1.634,1.629,1.542,1.542,0,0,1-1.634,1.629Z" transform="translate(824 388.586)" fill="#fff"/>
+    <path id="Icon_ionic-ios-pin" data-name="Icon ionic-ios-pin" d="M15.926,3.375c-4.445,0-8.051,3.349-8.051,7.475,0,5.815,8.051,15.783,8.051,15.783s8.051-9.969,8.051-15.783C23.977,6.724,20.371,3.375,15.926,3.375Zm0,10.673a2.622,2.622,0,1,1,2.622-2.622A2.622,2.622,0,0,1,15.926,14.048Z" transform="translate(821.148 446.999)" fill="#fff"/>
+    <path id="Icon_ionic-ios-clock" data-name="Icon ionic-ios-clock" d="M20.445,6.3a10,10,0,1,0,0,14.144A10,10,0,0,0,20.445,6.3ZM5.374,13.75a.385.385,0,1,1,.3-.3A.384.384,0,0,1,5.374,13.75ZM6.633,17.7a.383.383,0,1,1,.111-.409A.384.384,0,0,1,6.633,17.7Zm.111-8.245a.382.382,0,1,1-.111-.409A.385.385,0,0,1,6.744,9.457ZM9.7,20.49a.382.382,0,1,1-.111-.409A.385.385,0,0,1,9.7,20.49ZM9.59,6.668A.383.383,0,1,1,9.7,6.26.384.384,0,0,1,9.59,6.668Zm1.7,3.668a.385.385,0,1,1,.659-.4l1.62,3a1.558,1.558,0,0,1,.187.731v5.865a.385.385,0,1,1-.769,0V13.663A.791.791,0,0,0,12.9,13.3Zm2.158,11.49a.385.385,0,1,1,.3-.3A.384.384,0,0,1,13.45,21.827Zm0-16.154a.385.385,0,1,1,.3-.3A.384.384,0,0,1,13.45,5.673Zm4.216,14.986a.383.383,0,1,1,.111-.409A.384.384,0,0,1,17.666,20.659ZM17.777,6.5a.382.382,0,1,1-.111-.409A.385.385,0,0,1,17.777,6.5Zm2.956,11.034a.382.382,0,1,1-.111-.409A.385.385,0,0,1,20.733,17.534Zm-.111-7.909a.383.383,0,1,1,.111-.409A.384.384,0,0,1,20.623,9.625Zm.9,4.125a.385.385,0,1,1,.3-.3A.384.384,0,0,1,21.526,13.75Z" transform="translate(823.702 507.934)" fill="#fff"/>
+    <path id="Icon_ionic-ios-water" data-name="Icon ionic-ios-water" d="M19.443,8.99a24.362,24.362,0,0,0-4.5-5.512.381.381,0,0,0-.516-.006A24.072,24.072,0,0,0,9.938,8.978,18.939,18.939,0,0,0,6.755,18.73c0,.068,0,.143,0,.211a8.266,8.266,0,0,0,1.294,4.474,7.862,7.862,0,0,0,6.634,3.7,8.057,8.057,0,0,0,7.938-8.171A19.042,19.042,0,0,0,19.443,8.99ZM15.179,24.071h-.025c-.491,0-.595-.8-.129-.976a6.623,6.623,0,0,0,4.284-4.611.427.427,0,0,1,.833.177v.08A5.162,5.162,0,0,1,15.179,24.071Z" transform="translate(822.51 565.611)" fill="#ddcb00"/>
+    <text id="_2.3_km" data-name="2.3 km" transform="translate(884.149 386.809)" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins"><tspan x="0" y="25">2.3 km</tspan></text>
+    <text id="_2.9_hrs" data-name="2.9 hrs" transform="translate(884.149 440.809)" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins"><tspan x="0" y="25">2.9 hrs</tspan></text>
+    <text id="_2.4_hrs" data-name="2.4 hrs" transform="translate(884.149 504.809)" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins"><tspan x="0" y="25">2.4 hrs</tspan></text>
+    <text id="_2.3_l" data-name="2.3 l" transform="translate(884.149 568.809)" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins"><tspan x="0" y="25">2.3 l</tspan></text>
+    <g id="Group_45" data-name="Group 45" transform="translate(6.852)">
+      <path id="Icon_awesome-gas-pump" data-name="Icon awesome-gas-pump" d="M15.75,21H.75a.752.752,0,0,0-.75.75v1.5A.752.752,0,0,0,.75,24h15a.752.752,0,0,0,.75-.75v-1.5A.752.752,0,0,0,15.75,21ZM23.119,5.03l-3.8-3.8a.753.753,0,0,0-1.059,0l-.53.53a.753.753,0,0,0,0,1.059L19.5,4.589V7.5a2.621,2.621,0,0,0,2.25,2.588v7.537a1.125,1.125,0,0,1-2.25,0v-1.5A4.125,4.125,0,0,0,15.375,12H15V3a3,3,0,0,0-3-3H4.5a3,3,0,0,0-3,3V19.5H15V14.25h.375a1.874,1.874,0,0,1,1.875,1.875v1.3a3.515,3.515,0,0,0,3.023,3.558A3.384,3.384,0,0,0,24,17.625V7.153a3.006,3.006,0,0,0-.881-2.123ZM12,9H4.5V3H12Z" transform="translate(752.148 250)" fill="#ffa700"/>
+      <g transform="matrix(1, 0, 0, 1, -28.35, 19.86)" filter="url(#_11:42)">
+        <text id="_11:42-2" data-name="11:42" transform="translate(910.35 226.14)" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins"><tspan x="0" y="25">11:42</tspan></text>
+      </g>
+      <g id="Group_34" data-name="Group 34" transform="translate(1022 243.26)">
+        <g transform="matrix(1, 0, 0, 1, -1050.35, -223.4)" filter="url(#Rectangle_105)">
+          <rect id="Rectangle_105-2" data-name="Rectangle 105" width="33" height="38" rx="9" transform="translate(1050.35 223.14)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -1050.35, -223.4)" filter="url(#Union_5)">
+          <path id="Union_5-2" data-name="Union 5" d="M.337,0A.337.337,0,0,0,0,.337L.008,16.96c.456.017.868.024,1.241.022A.681.681,0,0,0,1.42,17H9.494L6.109,20.229a.669.669,0,0,0-.012.962l.623.624a.671.671,0,0,0,.952,0l5.461-5.458a.671.671,0,0,0,0-.952L7.673,9.945a.671.671,0,0,0-.952,0l-.623.623a.675.675,0,0,0,.012.964l3.384,3.224H2.248V.337A.337.337,0,0,0,1.91,0Z" transform="translate(1071.57 253.14) rotate(180)"/>
+        </g>
+      </g>
     </g>
   </g>
 </svg>

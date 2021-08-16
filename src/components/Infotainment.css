@@ -1,14 +1,23 @@
 .app-container {    
-    width: 85%;
+    width: 65%;
     margin: 0 auto;
     margin-top: 5vh;
 }
 
 .filler-wrap {
     display: flex;
+    width: 55vw;
+    /* background-color: blue; */
+    justify-content: space-between;
 }
 
 .temp-container {
     margin-top: 2vh;
     border-radius: 45px;
+}
+
+.vslider-wrap {
+    position: fixed;
+    right: 20vw;
+    top: 30vh
 }
