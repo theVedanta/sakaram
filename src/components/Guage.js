@@ -5,9 +5,13 @@ const Guage = () => {
   let speedArr = [];
   let speed = 0;
   let brakeInt;
+  let audio = new Audio("/assets/the.mp3");
 
   document.addEventListener("keydown", (e) => {
     if (e.code === "ArrowUp") {
+      audio.volume = 0.2;
+      audio.play();
+
       clearTimeout(changeTime);
       clearInterval(brakeInt);
 
@@ -32,11 +36,14 @@ const Guage = () => {
 
         if (speed > 60) {
           document.querySelector("#gear-display").innerHTML = "2";
-        } else if (speed > 100) {
+        }
+        if (speed > 100) {
           document.querySelector("#gear-display").innerHTML = "3";
-        } else if (speed > 160) {
+        }
+        if (speed > 160) {
           document.querySelector("#gear-display").innerHTML = "4";
-        } else if (speed > 200) {
+        }
+        if (speed > 200) {
           document.querySelector("#gear-display").innerHTML = "5";
         }
       }, 100);
@@ -44,6 +51,16 @@ const Guage = () => {
   });
   document.addEventListener("keyup", (e) => {
     if (e.code === "ArrowUp") {
+      let fadeout = setInterval(() => {
+        if (audio.volume > 0) {
+          audio.volume -= 0.1;
+        } else {
+          clearInterval(fadeout);
+          audio.pause();
+          audio.currentTime = 0;
+        }
+      }, 100);
+
       for (let needle of document.querySelectorAll(".needle-hold")) {
         needle.style.transform = "translate(-50%, -50%) rotate(-40deg)";
       }
