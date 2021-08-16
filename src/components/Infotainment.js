@@ -10,9 +10,11 @@ function App() {
   return (
     <React.Fragment>
       <StatusBar />
-      <div className="app-container">        
+      <div className="app-container"> 
+      <div className="filler-wrap"> 
         <MapRender />
         <PSI />
+      </div>      
         <TemperatureSlider />
         {/* <VerticalSlider /> */}
       </div>

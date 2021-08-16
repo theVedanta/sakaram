@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Index from "./components/Index";
 import Infotainment from "./components/Infotainment";
+import Guage from "./components/Guage";
 import "./App.css";
 
 function App() {
@@ -11,10 +12,13 @@ function App() {
           <Index />
         </Route>
         <Route exact path="/guages">
-          <Index />
+          <Guage />
         </Route>
         <Route exact path="/infotainment">
           <Infotainment />
+        </Route>
+        <Route exact path="*">
+          <h1>404</h1>
         </Route>
       </Switch>
     </Router>

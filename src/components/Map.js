@@ -3,7 +3,9 @@ import "./Map.css";
 
 function MapRender() {
     return(
+        <div>
             <img src="assets/map.png" className="map-frame" />
+        </div>
     );
 }
  

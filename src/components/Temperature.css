@@ -1,15 +1,22 @@
 .temp-container {
     /* width: 60vw; */
+    align-items: center;
     background-color: var(--grey);
 }
 
 .slider-container {
     width: 50vw;
-    display: flex;    
+    display: flex;  
+    justify-content: center;  
+    background-color: var(--grey);
 }
 
 #discrete-slider-custom{
     text-align: center;
+}
+
+.control-wrap {
+    background-color: var(--grey);  
 }
 
 .tslider-wrap {
@@ -19,4 +26,24 @@
 
 .temp-controls {
     background-color: black;
+    text-align: center;
+    border-radius: 20px;
 }
+
+/* .temp-container {
+    background-color: var(--grey);
+}
+
+.slider-container {
+    display:flex;
+    justify-content: center;
+    width: 100vw
+}
+
+.tslider-wrap {
+    width: 100v
+}
+
+.temp-controls {
+    width: 40vw;
+} */

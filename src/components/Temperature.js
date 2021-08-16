@@ -65,47 +65,90 @@ const CustomisedSlider = withStyles({
   }
 })(Slider);
 
+// function Temperature() {
+//     const classes = useStyles();
+  
+//     return (
+//         <div className={classes.root}>
+//         <div className="temp-container">
+//             <div className="slider-container">
+//                 <div className="tslider-wrap">
+//                     <Typography id="discrete-slider-custom" gutterBottom>
+//                     <h2>26C</h2>
+//                     </Typography>
+//                     <CustomisedSlider
+//                         defaultValue={20}
+//                         getAriaValueText={valuetext}
+//                         aria-labelledby="discrete-slider-custom"
+//                         // valueLabelDisplay="auto"
+//                     />
+//                 </div>
+//                 <div className="tslider-wrap">
+//                     <Typography id="discrete-slider-custom" gutterBottom>
+//                     <h2>26C</h2>
+//                     </Typography>
+//                     <CustomisedSlider
+//                         defaultValue={20}
+//                         getAriaValueText={valuetext}
+//                         aria-labelledby="discrete-slider-custom"
+//                         // valueLabelDisplay="auto"
+//                     />
+//                 </div>
+//             </div>
+//             <div className="control-wrap">
+//                 <div className="temp-controls">
+//                     <img src="assets/t1.png" />
+//                     <img src="assets/t2.png" />
+//                     <img src="assets/t3.png" />
+//                     <img src="assets/t4.png" />
+//                     <img src="assets/t5.png" />
+//                 </div>
+//             </div>
+//         </div>
+//         </div>
+//     );
+//   }
+  
 
-function Temperature() {
-  const classes = useStyles();
+function Temperature() {    
+    const classes = useStyles();
 
-  return (
-    <div className={classes.root}>
-    <div className="temp-container">
-        <div className="slider-container">
-            <div className="tslider-wrap">
-                <Typography id="discrete-slider-custom" gutterBottom>
-                <h2>26C</h2>
-                </Typography>
-                <CustomisedSlider
-                    defaultValue={20}
-                    getAriaValueText={valuetext}
-                    aria-labelledby="discrete-slider-custom"
-                    // valueLabelDisplay="auto"
-                />
-            </div>
-            <div className="tslider-wrap">
-                <Typography id="discrete-slider-custom" gutterBottom>
-                <h2>26C</h2>
-                </Typography>
-                <CustomisedSlider
-                    defaultValue={20}
-                    getAriaValueText={valuetext}
-                    aria-labelledby="discrete-slider-custom"
-                    // valueLabelDisplay="auto"
-                />
+    return (
+        <div className={classes.root}>
+            <div className="temp-container">
+                <div className="slider-container">
+                    <div className="tslider-wrap">
+                        <Typography id="discrete-slider-custom" gutterBottom>
+                        <h2>26C</h2>
+                        </Typography>
+                        <CustomisedSlider
+                        defaultValue={20}
+                        getAriaValueText={valuetext}
+                        aria-labelledby="discrete-slider-custom"
+                        valueLabelDisplay="auto"
+                        />
+                    </div>
+                    <div className="tslider-wrap">
+                        <Typography id="discrete-slider-custom" gutterBottom>
+                        <h2>26C</h2>
+                        </Typography>
+                        <CustomisedSlider
+                        defaultValue={20}
+                        getAriaValueText={valuetext}
+                        aria-labelledby="discrete-slider-custom"
+                        valueLabelDisplay="auto"
+                        />
+                    </div>
+                </div>
+                <div className="temp-controls">
+                    <img src="assets/t1.png" />
+                    <img src="assets/t2.png" />
+                    <img src="assets/t3.png" />
+                    <img src="assets/t4.png" />
+                    <img src="assets/t5.png" />                    
+                </div>
             </div>
         </div>
-        <div className="temp-controls">
-            <img src="assets/t1.png" />
-            <img src="assets/t2.png" />
-            <img src="assets/t3.png" />
-            <img src="assets/t4.png" />
-            <img src="assets/t5.png" />
-        </div>
-    </div>
-    </div>
-  );
+    )
 }
-
 export default Temperature;
