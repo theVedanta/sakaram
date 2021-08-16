@@ -1,0 +1,22 @@
+.temp-container {
+    /* width: 60vw; */
+    background-color: var(--grey);
+}
+
+.slider-container {
+    width: 50vw;
+    display: flex;    
+}
+
+#discrete-slider-custom{
+    text-align: center;
+}
+
+.tslider-wrap {
+    width: 20vw;
+    margin: 0 1vw
+}
+
+.temp-controls {
+    background-color: black;
+}

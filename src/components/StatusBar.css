@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dblue: #09142E;
+    --grey: #202A44;
+    --text: #fff;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--dblue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.status-wrap {
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey);
+    width: 85%;
+    margin: 0 auto;
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+    padding: 2vh 0;
+}
+
+.text {
+    vertical-align: middle;
+}
+
+.status.logo, .status.perc img {
+    height: 8vh;
+}
+
+.status.temp, .status.time, .status.perc, .status.logo {
+    margin: auto 1vw;
+}
+
+.text {
+    margin-left: 0.5vw;
+}
