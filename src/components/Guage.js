@@ -1,4 +1,4 @@
-import "../guage.css";
+import "./guage.css";
 
 const Guage = () => {
   let changeTime;
@@ -104,7 +104,7 @@ const Guage = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="guage-container">
         <div className="cluster">
           <img src="/assets/outer.svg" alt="the" className="outer" />
           <div className="left-guage">

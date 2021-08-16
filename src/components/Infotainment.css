@@ -1,0 +1,14 @@
+.app-container {    
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.filler-wrap {
+    display: flex;
+}
+
+.temp-container {
+    margin-top: 2vh;
+    border-radius: 45px;
+}

@@ -14,13 +14,4 @@
 body {
   width: 100vw;
   overflow-x: hidden;
-  background-color: #222121;
-}
-.container {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
