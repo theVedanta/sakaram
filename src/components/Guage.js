@@ -80,7 +80,7 @@ const Guage = () => {
       changeTime = setTimeout(() => {
         document.querySelector(".gear-active").classList.remove("gear-active");
         document.querySelector("#park").classList.add("gear-active");
-      }, 2000);
+      }, 1000);
 
       brakeInt = setInterval(() => {
         speedArr.pop();
